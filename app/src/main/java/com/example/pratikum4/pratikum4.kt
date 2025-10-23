@@ -56,6 +56,14 @@ fun ActivitasPertama(modifier: Modifier){
         ){
             Row() {
                 val gambar = painterResource(id = R.drawable.images)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(size = 100.dp)
+                        .padding(all = 5.dp)
+                )
+
             }
 
 
