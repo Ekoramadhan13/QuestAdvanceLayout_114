@@ -53,7 +53,7 @@ fun ActivitasPertama(modifier: Modifier){
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
             )
-        ){
+        ) {
             Row() {
                 val gambar = painterResource(id = R.drawable.images)
                 Image(
@@ -72,17 +72,22 @@ fun ActivitasPertama(modifier: Modifier){
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
-                    Text (
+                    Text(
                         stringResource(R.string.alamat),
                         fontSize = 20.sp,
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 10.dp)
 
                     )
-
-
-
                 }
+            }
+        }
+        Box()
+
+
+
+
+    }
 
 
     }
