@@ -54,8 +54,9 @@ fun ActivitasPertama(modifier: Modifier){
                 containerColor = Color.DarkGray
             )
         ){
+            Row() {
 
-        }
+            }
 
 
     }
