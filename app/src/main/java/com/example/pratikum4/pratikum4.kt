@@ -49,19 +49,23 @@ fun ActivitasPertama(modifier: Modifier) {
         Spacer(modifier = Modifier.height(height = 25.dp))
         Card(
             modifier = Modifier
+                .height(160.dp)
                 .fillMaxWidth(fraction = 1f)
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
             )
         ) {
-            Row() {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(10.dp)
+            ) {
                 val gambar = painterResource(id = R.drawable.images)
                 Image(
                     painter = gambar,
                     contentDescription = null,
                     modifier = Modifier
-                        .size(size = 100.dp)
+                        .size(size = 120.dp)
                         .padding(all = 5.dp)
                 )
                 Spacer(modifier = Modifier.width(width = 30.dp))
@@ -83,6 +87,10 @@ fun ActivitasPertama(modifier: Modifier) {
                 }
             }
         }
+
+
+
+
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -95,6 +103,5 @@ fun ActivitasPertama(modifier: Modifier) {
             )
 
         }
-
     }
 }
