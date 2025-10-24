@@ -99,7 +99,9 @@ fun ActivitasPertama(modifier: Modifier) {
                 containerColor = Color.Blue
             )
 
-        ){}
+        ){
+            Row()
+        }
 
 
 
