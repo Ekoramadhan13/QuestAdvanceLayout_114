@@ -131,7 +131,7 @@ fun ActivitasPertama(modifier: Modifier) {
                     Text (
                         stringResource(R.string.alamat),
                         fontSize = 20.sp,
-                        color = Color.Yellow,
+                        color = Color.White,
                         modifier = Modifier.padding(top = 10.dp)
                     )
 
@@ -153,7 +153,7 @@ fun ActivitasPertama(modifier: Modifier) {
             Row(
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(10.dp)
-            ){
+            ) {
                 val gambar = painterResource(id = R.drawable.images)
                 Image(
                     painter = gambar,
@@ -171,13 +171,13 @@ fun ActivitasPertama(modifier: Modifier) {
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
-                    Text (
+                    Text(
                         stringResource(R.string.nim),
                         fontSize = 20.sp,
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 10.dp)
                     )
-                    Text (
+                    Text(
                         stringResource(R.string.alamat),
                         fontSize = 20.sp,
                         color = Color.Yellow,
@@ -186,10 +186,8 @@ fun ActivitasPertama(modifier: Modifier) {
 
 
                 }
+            }
         }
-
-
-
 
                 Box(
             modifier = Modifier
