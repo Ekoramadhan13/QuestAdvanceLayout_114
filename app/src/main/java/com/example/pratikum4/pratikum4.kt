@@ -113,7 +113,10 @@ fun ActivitasPertama(modifier: Modifier) {
                         .size(size = 120.dp)
                         .padding(all = 5.dp)
                 )
+                Spacer(modifier = Modifier.width(width = 30.dp))
+                Column(){
 
+                }
             }
         }
 
