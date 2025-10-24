@@ -100,7 +100,11 @@ fun ActivitasPertama(modifier: Modifier) {
             )
 
         ){
-            Row()
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(10.dp)
+
+            ){}
         }
 
 
